@@ -14,13 +14,16 @@ export default function FooterSection() {
     <footer>
       <div className="headerContainer">
         <div className="FooterFlex">
-
           {/* ---------- SEND QUOTE SECTION ---------- */}
           <div className="FooterSendQuote">
             <h1 className="FooterHeadding fontFamily">Send Us a Quote!</h1>
 
             <input placeholder="Name" className="FooterInp" type="text" />
-            <input placeholder="Phone Number" type="number" className="FooterInp" />
+            <input
+              placeholder="Phone Number"
+              type="number"
+              className="FooterInp"
+            />
             <input placeholder="Email" className="FooterInp" type="email" />
             <textarea
               placeholder="Description"
@@ -32,7 +35,10 @@ export default function FooterSection() {
 
           {/* ---------- ABOUT SECTION ---------- */}
           <div className="FooterAbout">
-            <h1 className="FooterAboutHeading FooterHeadding fontFamily" id="About">
+            <h1
+              className="FooterAboutHeading FooterHeadding fontFamily"
+              id="About"
+            >
               About Us
             </h1>
 
@@ -46,19 +52,60 @@ export default function FooterSection() {
 
             <div>
               <div className="footerIconWraper">
-                <Image src={callIcon} alt="Call" className="footerIcon" width={30} height={30} />
-                <span className="footerNumber fontFamily">+91-987654322</span>
+                {/* <Image
+                  src={callIcon}
+                  alt="Call"
+                  className="footerIcon"
+                  width={30}
+                  height={30}
+                /> */}
+                <span className="footerNumber fontFamily">883 815 3372</span>
+              </div>
+              <div className="footerIconWraper">
+                {/* <Image src={callIcon} alt="Call" className="footerIcon" width={30} height={30} /> */}
+                <span className="footerNumber fontFamily">
+                  ansoarchitect@gmail.com
+                </span>
               </div>
 
               <div className="FooterSocialMediaIcons">
-                <Image src={whatsapp} alt="WhatsApp" className="footerSocialMediaIcon" width={30} height={30} />
-                <Image src={insta} alt="Instagram" className="footerSocialMediaIcon" width={30} height={30} />
-                <Image src={fb} alt="Facebook" className="footerSocialMediaIcon" width={30} height={30} />
-                <Image src={pin} alt="Pinterest" className="footerSocialMediaIcon" width={30} height={30} />
-                <Image src={youtube} alt="YouTube" className="footerSocialMediaIcon" width={30} height={30} />
+                <Image
+                  src={whatsapp}
+                  alt="WhatsApp"
+                  className="footerSocialMediaIcon"
+                  width={30}
+                  height={30}
+                />
+                <Image
+                  src={insta}
+                  alt="Instagram"
+                  className="footerSocialMediaIcon"
+                  width={30}
+                  height={30}
+                />
+                <Image
+                  src={fb}
+                  alt="Facebook"
+                  className="footerSocialMediaIcon"
+                  width={30}
+                  height={30}
+                />
+                <Image
+                  src={pin}
+                  alt="Pinterest"
+                  className="footerSocialMediaIcon"
+                  width={30}
+                  height={30}
+                />
+                <Image
+                  src={youtube}
+                  alt="YouTube"
+                  className="footerSocialMediaIcon"
+                  width={30}
+                  height={30}
+                />
               </div>
             </div>
-
           </div>
         </div>
       </div>

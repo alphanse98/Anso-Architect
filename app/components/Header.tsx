@@ -38,10 +38,11 @@ function Header() {
             </ul>
           </nav>
           <div className="HeaderTexBox">
-            <p className="headerPara fontFamily">Plan My Spaces.com</p>
+            <p className="headerPara fontFamily">Anso Architect.com</p>
             <h1 className="HeaderHeading fontFamily">Perfect Plan for your</h1>
             <h2 className="HeaderHeadingTwo fontFamily">Dream Home</h2>
-            <h3 className="HeaderHeadingThree ">Get your model plan Rs 1</h3>
+            {/* <h3 className="HeaderHeadingThree ">Get your model plan Rs 1</h3> */}
+            <h3 className="HeaderHeadingThree ">883 815 3372</h3>
             <div className="HeadarBtns">
               <button
                 className="HeaderDownloadBtn"
