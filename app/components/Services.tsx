@@ -16,25 +16,33 @@ function Services() {
 
         <div className="serviceBoxs">
           <a className="serviceBox" href="#plan">
-            <img src={floor1.src} className="serviceBoxIcon" alt="" />
+            <img src={floor1.src} className="serviceBoxIcon" alt="2D Plan" />
             <p className="sevixeBoxP">2D Plan</p>
             <p className="priceBox">
               <s className="fontFamily priceBox">Rs.3000</s>
-              <span className="fontFamily priceBox">Rs.999</span>
+              <span className="fontFamily priceBox">Rs.1499</span>
             </p>
           </a>
 
           <a className="serviceBox" href="#Elevation">
-            <img src={elevation2.src} className="serviceBoxIcon" alt="" />
+            <img
+              src={elevation2.src}
+              className="serviceBoxIcon"
+              alt="Elevation"
+            />
             <p className="sevixeBoxP">Elevation</p>
             <p className="priceBox">
               <s className="fontFamily priceBox">Rs.5000</s>
-              <span className="fontFamily priceBox">Rs.1999</span>
+              <span className="fontFamily priceBox">Rs.2499</span>
             </p>
           </a>
 
           <a className="serviceBox" href="#Interior">
-            <img src={interior1.src} className="serviceBoxIcon" alt="" />
+            <img
+              src={interior1.src}
+              className="serviceBoxIcon"
+              alt="Interior"
+            />
             <p className="sevixeBoxP">Interior</p>
             <p className="priceBox">
               <s className="fontFamily priceBox">Rs.5000</s>
@@ -43,16 +51,24 @@ function Services() {
           </a>
 
           <a className="serviceBox" href="#3Dplan">
-            <img src={floorplan2.src} className="serviceBoxIcon" alt="" />
+            <img
+              src={floorplan2.src}
+              className="serviceBoxIcon"
+              alt="3D Plan"
+            />
             <p className="sevixeBoxP">3D Plan</p>
             <p className="priceBox">
               <s className="fontFamily priceBox">Rs.3000</s>
-              <span className="fontFamily priceBox">Rs.1500</span>
+              <span className="fontFamily priceBox">Rs.1999</span>
             </p>
           </a>
 
           <a className="serviceBox" href="#WalkTrough">
-            <img src={elevation2b.src} className="serviceBoxIcon" alt="" />
+            <img
+              src={elevation2b.src}
+              className="serviceBoxIcon"
+              alt="Walk Trough"
+            />
             <p className="sevixeBoxP">Walk Trough</p>
             <p className="priceBox">
               <s className="fontFamily priceBox">Rs.4000</s>
