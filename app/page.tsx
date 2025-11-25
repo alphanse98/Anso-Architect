@@ -15,11 +15,11 @@ export default function Home() {
       <Header />
       <Gallery />
       <Services />
-      <Plan />
+      {/* <Plan />
       <Elevation />
       <FloorPlan />
       <Interior />
-      <WalkThrough />
+      <WalkThrough /> */}
       <FooterSection />
     </div>
   );
