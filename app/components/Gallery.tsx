@@ -92,11 +92,11 @@ export default function Gallery() {
         </div>
 
         {/* BUTTON */}
-        <div className="text-center mt-10">
+        {/* <div className="text-center mt-10">
           <button className="px-6 py-3 bg-black text-white rounded-md shadow hover:bg-gray-800">
             View More
           </button>
-        </div>
+        </div> */}
       </section>
     </>
   );

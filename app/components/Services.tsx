@@ -19,8 +19,8 @@ function Services() {
             <img src={floor1.src} className="serviceBoxIcon" alt="2D Plan" />
             <p className="sevixeBoxP">2D Plan</p>
             <p className="priceBox">
-              <s className="fontFamily priceBox">Rs.3000</s>
-              <span className="fontFamily priceBox">Rs.1499</span>
+              <s className="fontFamily priceBox">Rs.6000</s>
+              <span className="fontFamily priceBox">Rs.2500</span>
             </p>
           </a>
 
@@ -32,8 +32,8 @@ function Services() {
             />
             <p className="sevixeBoxP">Elevation</p>
             <p className="priceBox">
-              <s className="fontFamily priceBox">Rs.5000</s>
-              <span className="fontFamily priceBox">Rs.2499</span>
+              <s className="fontFamily priceBox">Rs.8000</s>
+              <span className="fontFamily priceBox">Rs.4000</span>
             </p>
           </a>
 
@@ -45,8 +45,8 @@ function Services() {
             />
             <p className="sevixeBoxP">Interior</p>
             <p className="priceBox">
-              <s className="fontFamily priceBox">Rs.5000</s>
-              <span className="fontFamily priceBox">Rs.1999</span>
+              <s className="fontFamily priceBox">Rs.8000</s>
+              <span className="fontFamily priceBox">Rs.4000</span>
             </p>
           </a>
 
@@ -58,8 +58,8 @@ function Services() {
             />
             <p className="sevixeBoxP">3D Plan</p>
             <p className="priceBox">
-              <s className="fontFamily priceBox">Rs.3000</s>
-              <span className="fontFamily priceBox">Rs.1999</span>
+              <s className="fontFamily priceBox">Rs.4000</s>
+              <span className="fontFamily priceBox">Rs.2500</span>
             </p>
           </a>
 
@@ -71,8 +71,8 @@ function Services() {
             />
             <p className="sevixeBoxP">Walk Trough</p>
             <p className="priceBox">
-              <s className="fontFamily priceBox">Rs.4000</s>
-              <span className="fontFamily priceBox">Rs.1999</span>
+              <s className="fontFamily priceBox">Rs.8000</s>
+              <span className="fontFamily priceBox">Rs.3000</span>
             </p>
           </a>
         </div>

@@ -1,4 +1,7 @@
+"use client";
+
 // import background from "../assets/Group 304.png";
+
 import Image from "next/image";
 
 import background from "../assets/Group 304.png";
@@ -8,7 +11,7 @@ function Header() {
     <div className="headerContainer">
       <header>
         <div className="HeaderBoxOne">
-          <nav>
+          {/* <nav>
             <ul className="navBar">
               <li>
                 <a href="/" className="fontFamily">
@@ -36,23 +39,31 @@ function Header() {
                 </a>
               </li>
             </ul>
-          </nav>
+          </nav> */}
           <div className="HeaderTexBox">
             <p className="headerPara fontFamily">Anso Architect.com</p>
             <h1 className="HeaderHeading fontFamily">Perfect Plan for your</h1>
             <h2 className="HeaderHeadingTwo fontFamily">Dream Home</h2>
             {/* <h3 className="HeaderHeadingThree ">Get your model plan Rs 1</h3> */}
             <h3 className="HeaderHeadingThree ">883 815 3372</h3>
-            <div className="HeadarBtns">
-              <button
+            <div
+              className="HeadarBtns"
+              onClick={() =>
+                window.open("https://wa.me/918838153372", "_blank")
+              }
+            >
+              {/* <button
                 className="HeaderDownloadBtn"
                 // onClick={() => navigation("/plans")}
               >
                 Download Free Plan
-              </button>
+              </button> */}
               <button
                 className="HeaderEnquriryBtn"
-                // onClick={() => dispatch(fromActiveAction(true))}
+
+                // onClick={() =>
+                //   window.open("https://wa.me/918838153372", "_blank")
+                // }
               >
                 Make Enquriry
               </button>

@@ -30,7 +30,14 @@ export default function FooterSection() {
               className="FooterInp"
             ></textarea>
 
-            <button className="FooterBtn">Submit</button>
+            <button
+              className="FooterBtn"
+              onClick={() =>
+                window.open("https://wa.me/918838153372", "_blank")
+              }
+            >
+              Submit
+            </button>
           </div>
 
           {/* ---------- ABOUT SECTION ---------- */}
@@ -70,6 +77,9 @@ export default function FooterSection() {
 
               <div className="FooterSocialMediaIcons">
                 <Image
+                  onClick={() =>
+                    window.open("https://wa.me/918838153372", "_blank")
+                  }
                   src={whatsapp}
                   alt="WhatsApp"
                   className="footerSocialMediaIcon"
@@ -83,20 +93,20 @@ export default function FooterSection() {
                   width={30}
                   height={30}
                 />
-                <Image
+                {/* <Image
                   src={fb}
                   alt="Facebook"
                   className="footerSocialMediaIcon"
                   width={30}
                   height={30}
-                />
-                <Image
+                /> */}
+                {/* <Image
                   src={pin}
                   alt="Pinterest"
                   className="footerSocialMediaIcon"
                   width={30}
                   height={30}
-                />
+                /> */}
                 <Image
                   src={youtube}
                   alt="YouTube"
